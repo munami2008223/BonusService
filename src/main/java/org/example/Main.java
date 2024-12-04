@@ -20,7 +20,7 @@ public class Main {
 
         amount = 1000;
         registered = false;
-        expected = 30;
+        expected = 10;
         actual = service.calculate(amount, registered);
 
         System.out.println(actual);
